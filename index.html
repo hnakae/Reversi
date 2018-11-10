@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reversi</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center display-4">Reversi</h1>
+        <div class="grid">
+            <div class="row">
+                <div class="box">
+                    <div class="inner">1</div>
+                </div>
+                <div class="box">
+                    <div class="inner">2</div>
+                </div>
+                <div class="box">
+                    <div class="inner">3</div>
+                </div>
+                <div class="box">
+                    <div class="inner">4</div>
+                </div>
+                <div class="box">
+                    <div class="inner">5</div>
+                </div>
+                <div class="box">
+                    <div class="inner">6</div>
+                </div>
+                <div class="box">
+                    <div class="inner">7</div>
+                </div>
+                <div class="box">
+                    <div class="inner">8</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">9</div>
+                </div>
+                <div class="box">
+                    <div class="inner">10</div>
+                </div>
+                <div class="box">
+                    <div class="inner">11</div>
+                </div>
+                <div class="box">
+                    <div class="inner">12</div>
+                </div>
+                <div class="box">
+                    <div class="inner">13</div>
+                </div>
+                <div class="box">
+                    <div class="inner">14</div>
+                </div>
+                <div class="box">
+                    <div class="inner">15</div>
+                </div>
+                <div class="box">
+                    <div class="inner">16</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">17</div>
+                </div>
+                <div class="box">
+                    <div class="inner">18</div>
+                </div>
+                <div class="box">
+                    <div class="inner">19</div>
+                </div>
+                <div class="box">
+                    <div class="inner">20</div>
+                </div>
+                <div class="box">
+                    <div class="inner">21</div>
+                </div>
+                <div class="box">
+                    <div class="inner">22</div>
+                </div>
+                <div class="box">
+                    <div class="inner">23</div>
+                </div>
+                <div class="box">
+                    <div class="inner">24</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">25</div>
+                </div>
+                <div class="box">
+                    <div class="inner">26</div>
+                </div>
+                <div class="box">
+                    <div class="inner">27</div>
+                </div>
+                <div class="box">
+                    <div class="inner default-start-w">28</div>
+                </div>
+                <div class="box">
+                    <div class="inner default-start-b">29</div>
+                </div>
+                <div class="box">
+                    <div class="inner">30</div>
+                </div>
+                <div class="box">
+                    <div class="inner">31</div>
+                </div>
+                <div class="box">
+                    <div class="inner">32</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">33</div>
+                </div>
+                <div class="box">
+                    <div class="inner">34</div>
+                </div>
+                <div class="box">
+                    <div class="inner">35</div>
+                </div>
+                <div class="box">
+                    <div class="inner default-start-b">36</div>
+                </div>
+                <div class="box">
+                    <div class="inner default-start-w">37</div>
+                </div>
+                <div class="box">
+                    <div class="inner">38</div>
+                </div>
+                <div class="box">
+                    <div class="inner">39</div>
+                </div>
+                <div class="box">
+                    <div class="inner">40</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">41</div>
+                </div>
+                <div class="box">
+                    <div class="inner">42</div>
+                </div>
+                <div class="box">
+                    <div class="inner">43</div>
+                </div>
+                <div class="box">
+                    <div class="inner">44</div>
+                </div>
+                <div class="box">
+                    <div class="inner">45</div>
+                </div>
+                <div class="box">
+                    <div class="inner">46</div>
+                </div>
+                <div class="box">
+                    <div class="inner">47</div>
+                </div>
+                <div class="box">
+                    <div class="inner">48</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">49</div>
+                </div>
+                <div class="box">
+                    <div class="inner">50</div>
+                </div>
+                <div class="box">
+                    <div class="inner">51</div>
+                </div>
+                <div class="box">
+                    <div class="inner">52</div>
+                </div>
+                <div class="box">
+                    <div class="inner">53</div>
+                </div>
+                <div class="box">
+                    <div class="inner">54</div>
+                </div>
+                <div class="box">
+                    <div class="inner">55</div>
+                </div>
+                <div class="box">
+                    <div class="inner">56</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="inner">57</div>
+                </div>
+                <div class="box">
+                    <div class="inner">58</div>
+                </div>
+                <div class="box">
+                    <div class="inner">59</div>
+                </div>
+                <div class="box">
+                    <div class="inner">60</div>
+                </div>
+                <div class="box">
+                    <div class="inner">61</div>
+                </div>
+                <div class="box">
+                    <div class="inner">62</div>
+                </div>
+                <div class="box">
+                    <div class="inner">63</div>
+                </div>
+                <div class="box">
+                    <div class="inner">64</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-end">
+            <button class="btn btn-info btn-lg reset">Reset</button>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
