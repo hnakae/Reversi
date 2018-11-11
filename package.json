@@ -1,0 +1,15 @@
+{
+  "name": "pattern-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.html"
+  },
+  "author": "Hiro Nakae",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap4": "0.0.1-security"
+  }
+}
