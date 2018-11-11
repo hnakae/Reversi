@@ -10,7 +10,7 @@
     display: flex;
 }
 .box {
-    background: cyan;
+    background: tomato;
     border: 2px solid red;
     margin: 5px;
     color: red;
@@ -37,9 +37,6 @@
     align-items: center;
 }
 
-.inner {
-    display: none;
-}
 
 
 .container {
